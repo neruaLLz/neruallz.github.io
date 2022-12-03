@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neruaLLz.github.io/tags/first/</loc>
-    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+    <loc>https://neruaLLz.github.io/tags/boring/</loc>
+    <lastmod>2022-12-03T23:05:09+08:00</lastmod>
   </url><url>
-    <loc>https://neruaLLz.github.io/2022/11/hello-world/</loc>
-    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+    <loc>https://neruaLLz.github.io/2022/12/boring/</loc>
+    <lastmod>2022-12-03T23:05:09+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/</loc>
-    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+    <lastmod>2022-12-03T23:05:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -22,10 +22,10 @@
                 />
   </url><url>
     <loc>https://neruaLLz.github.io/posts/</loc>
-    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+    <lastmod>2022-12-03T23:05:09+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/</loc>
-    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+    <lastmod>2022-12-03T23:05:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -36,6 +36,12 @@
                 hreflang="en-us"
                 href="https://neruaLLz.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/first/</loc>
+    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/2022/11/hello-world/</loc>
+    <lastmod>2022-11-13T23:31:44+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/trivial/</loc>
     <lastmod>2022-11-13T23:31:44+08:00</lastmod>
