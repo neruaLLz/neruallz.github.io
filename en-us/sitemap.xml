@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neruaLLz.github.io/2022/12/dddd/</loc>
-    <lastmod>2022-12-23T23:08:51+08:00</lastmod>
+    <loc>https://neruaLLz.github.io/tags/emoticon/</loc>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/2022/12/emoticon-1/</loc>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/</loc>
-    <lastmod>2022-12-23T23:08:51+08:00</lastmod>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,10 +22,10 @@
                 />
   </url><url>
     <loc>https://neruaLLz.github.io/posts/</loc>
-    <lastmod>2022-12-23T23:08:51+08:00</lastmod>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/</loc>
-    <lastmod>2022-12-23T23:08:51+08:00</lastmod>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -33,9 +36,6 @@
                 hreflang="en-us"
                 href="https://neruaLLz.github.io/tags/"
                 />
-  </url><url>
-    <loc>https://neruaLLz.github.io/tags/testing/</loc>
-    <lastmod>2022-12-23T23:08:51+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/boring/</loc>
     <lastmod>2022-12-03T23:05:09+08:00</lastmod>
