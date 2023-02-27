@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neruaLLz.github.io/tags/emoticon/</loc>
-    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
-  </url><url>
-    <loc>https://neruaLLz.github.io/2022/12/emoticon-1/</loc>
-    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
-  </url><url>
     <loc>https://neruaLLz.github.io/</loc>
-    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
+    <lastmod>2023-02-26T22:12:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -21,11 +15,17 @@
                 href="https://neruaLLz.github.io/"
                 />
   </url><url>
+    <loc>https://neruaLLz.github.io/2023/02/note/</loc>
+    <lastmod>2023-02-26T22:12:17+08:00</lastmod>
+  </url><url>
     <loc>https://neruaLLz.github.io/posts/</loc>
-    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
+    <lastmod>2023-02-26T22:12:17+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/reading/</loc>
+    <lastmod>2023-02-26T22:12:17+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/</loc>
-    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
+    <lastmod>2023-02-26T22:12:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -36,6 +36,18 @@
                 hreflang="en-us"
                 href="https://neruaLLz.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://neruaLLz.github.io/2023/02/2023.02.05/</loc>
+    <lastmod>2023-02-05T15:13:09+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/daily/</loc>
+    <lastmod>2023-02-05T15:13:09+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/emoticon/</loc>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/2022/12/emoticon-1/</loc>
+    <lastmod>2022-12-26T16:05:07+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/boring/</loc>
     <lastmod>2022-12-03T23:05:09+08:00</lastmod>
