@@ -2,7 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neruaLLz.github.io/2023/03/2023.03.17/</loc>
+    <loc>https://neruaLLz.github.io/2023/03/20230317/</loc>
+    <lastmod>2023-03-17T23:44:36+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/diary/</loc>
     <lastmod>2023-03-17T23:44:36+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/</loc>
@@ -21,9 +24,6 @@
     <loc>https://neruaLLz.github.io/posts/</loc>
     <lastmod>2023-03-17T23:44:36+08:00</lastmod>
   </url><url>
-    <loc>https://neruaLLz.github.io/tags/reading/</loc>
-    <lastmod>2023-03-17T23:44:36+08:00</lastmod>
-  </url><url>
     <loc>https://neruaLLz.github.io/tags/</loc>
     <lastmod>2023-03-17T23:44:36+08:00</lastmod>
     <xhtml:link
@@ -37,16 +37,10 @@
                 href="https://neruaLLz.github.io/tags/"
                 />
   </url><url>
-    <loc>https://neruaLLz.github.io/post/2023.03.17/</loc>
-    <lastmod>2023-03-17T23:43:10+08:00</lastmod>
-  </url><url>
-    <loc>https://neruaLLz.github.io/post/</loc>
-    <lastmod>2023-03-17T23:43:10+08:00</lastmod>
-  </url><url>
-    <loc>https://neruaLLz.github.io/post/20230317/</loc>
-    <lastmod>2023-03-17T23:42:11+08:00</lastmod>
-  </url><url>
     <loc>https://neruaLLz.github.io/2023/03/note2/</loc>
+    <lastmod>2023-03-04T11:21:57+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/reading/</loc>
     <lastmod>2023-03-04T11:21:57+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/2023/02/note/</loc>
