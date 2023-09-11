@@ -5,7 +5,29 @@
     <link>https://neruaLLz.github.io/tags/reading/</link>
     <description>Recent content in reading on Lauren Pickings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Sep 2023 16:14:31 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 20:58:04 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week3_tackling_procrastination_it_is_easier_and_more_valuable_than_you_think</title>
+      <link>https://neruaLLz.github.io/2023/09/week3_tackling_procrastination_it_is_easier_and_more_valuable_than_you_think/</link>
+      <pubDate>Mon, 11 Sep 2023 20:58:04 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2023/09/week3_tackling_procrastination_it_is_easier_and_more_valuable_than_you_think/</guid>
+      <description>The reason that learning to avoid procrastination is so important is that good learning is a bit by bit activity. You want to avoid cramming, which doesn&amp;rsquo;t build solid neural structures, by putting the same amount of time into your learning. But spacing that learning out by starting earlier, you&amp;rsquo;ll learn better.
+First things first, unlike procrastination which is easy to fall into, willpower is hard to come by. It uses a lot of neural resources.</description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://neruaLLz.github.io/2023/09/notes/</link>
+      <pubDate>Mon, 11 Sep 2023 15:28:01 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2023/09/notes/</guid>
+      <description>Loop: When you want to do the same action with every item in a list, you can use Python’s for loop. (p. 50)
+Expected an indented block after &amp;lsquo;for&amp;rsquo; statement on line 3
+Every indented line following the line for magician in magicians is considered inside the loop, and each indented line is executed once for each value in the list. (p. 52)
+Any lines of code after the for loop that are not indented are executed once without repetition.</description>
+    </item>
+    
     <item>
       <title>20230904</title>
       <link>https://neruaLLz.github.io/2023/09/20230904/</link>
