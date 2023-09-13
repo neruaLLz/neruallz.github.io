@@ -5,7 +5,17 @@
     <link>https://neruaLLz.github.io/</link>
     <description>Recent content on Lauren Pickings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Sep 2023 20:58:04 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2023 21:04:59 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>week3_Zombies_Everywhere</title>
+      <link>https://neruaLLz.github.io/2023/09/week3_zombies_everywhere/</link>
+      <pubDate>Tue, 12 Sep 2023 21:04:59 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2023/09/week3_zombies_everywhere/</guid>
+      <description>You can think of habits as having four parts, the first, is the cue. This is the trigger that launches you into zombie mode, the cue may be something as simple as seeing the first item in your to-do list. Time to start next week&amp;rsquo;s homework or seeing a text message from a friend, time to stop work.
+A cue by itself is neither helpful or harmful. It&amp;rsquo;s the routine, what we do in reaction to that cue.</description>
+    </item>
+    
     <item>
       <title>Week3_tackling_procrastination_it_is_easier_and_more_valuable_than_you_think</title>
       <link>https://neruaLLz.github.io/2023/09/week3_tackling_procrastination_it_is_easier_and_more_valuable_than_you_think/</link>
@@ -43,7 +53,8 @@ Any lines of code after the for loop that are not indented are executed once wit
       <pubDate>Mon, 11 Sep 2023 15:18:06 +0800</pubDate>
       
       <guid>https://neruaLLz.github.io/2023/09/concepts/</guid>
-      <description>Loop: Looping allows you to take the same action, or set of actions, with every item in a list.</description>
+      <description>Loop: Looping allows you to take the same action, or set of actions, with every item in a list.
+range() function: Python’s &amp;lsquo;range()&amp;rsquo; function makes it easy to generate a series of numbers. This is another result of the off-by-one behavior you’ll see often in programming languages.The &amp;lsquo;range()&amp;rsquo; function causes Python to start counting at the first value you give it, and it stops when it reaches the second value you provide.</description>
     </item>
     
     <item>
@@ -386,6 +397,16 @@ A separate issue is how you and your friends would feel if your roommate asked y
       
       <guid>https://neruaLLz.github.io/2022/11/%E5%BC%80%E4%B8%9A%E5%A4%A7%E9%85%AC%E5%AE%BE/</guid>
       <description>转发无奖 | 见者无份 今天本博客开张啦，凡是见者可得火眼金睛一双，闻者可得千里之耳两只，奖品之珍贵见仁见智，想要兑奖的访客可以四处逛逛，兑奖处就在各个角落，不想兑奖的访客可以右上角小叉叉，随机赠送一份谢谢光临奖。:)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://neruaLLz.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://neruaLLz.github.io/1/01/</guid>
+      <description>One of the best ways of being effective in your learning is to use mental tools and tricks to inspire and motivate yourself.
+First, when it comes to learning in general, you should realize that it&amp;rsquo;s perfectly normal to start with a few negative feelings about beginning a learning session. Even when it&amp;rsquo;s a subject you ordinary like, it&amp;rsquo;s how you handle those feelings that matters. Researchers have found that nonprocrastinators put their negative thinking aside saying things to themselves like.</description>
     </item>
     
   </channel>

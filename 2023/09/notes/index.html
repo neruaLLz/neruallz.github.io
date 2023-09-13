@@ -150,7 +150,7 @@ can use Python’s <em><strong>for</strong></em> loop. (p. 50)</p>
 <p>Every indented line following the line for magician in magicians is considered inside the loop, and each indented line is executed once for each value in the list. (p. 52)</p>
 <p>Any lines of code after the for loop that are not indented are executed
 once without repetition. (p. 52)</p>
-<p>The colon at the end of a for statement tells Python to interpret the next line as the start of a loop.</p>
+<p>The colon at the end of a for statement tells Python to interpret the next line as the start of a loop. (SyntaxError: expected &lsquo;:&rsquo;)</p>
 <p>Attention to indentation:</p>
 <p>(1) Always indent the line after the for statement in a loop. (inclusing the first line and additional lines, if you want to see a certain action repeated once for each item in the list.) (p. 53)</p>
 <p>(2) If you accidentally indent a line that doesn’t need to be indented, Python informs you about the unexpected indent: IndentationError: unexpected indent. (p. 54)</p>
@@ -158,6 +158,28 @@ once without repetition. (p. 52)</p>
 <p>Logic errors related to indentation:</p>
 <p>(1) If you expect to see a certain action repeated once for each item in a list and it’s executed only once, determine whether you need to simply indent a line or a group of lines.</p>
 <p>(2) If an action is repeated many times when it should be executed only once, you probably need to unindent the code for that action.</p>
+<p>We can also use the range() function to tell Python to skip numbers in a
+given range. If you pass a third argument to range(), Python uses that value as a step size when generating numbers. (p. 58)</p>
+<p>In Python, two asterisks (**) represent exponents. (p. 58)</p>
+<p>Sometimes using a temporary variable makes your code easier to read; other times it makes the code unnecessarily long. Focus first on writing
+code that you understand clearly, and does what you want it to do. Then look for more efficient approaches as you review your code.</p>
+<p>You can easily find the minimum, maximum, and sum of a list of numbers by using &lsquo;min()&rsquo;, &lsquo;max()&rsquo; and &lsquo;sum()&rsquo; function.</p>
+<p>A list comprehension allows you to generate this same list in just one line of code. A list comprehension combines the for loop and the creation of new elements into one line, and automatically appends each new element. (p. 59)</p>
+<p>You can also work with a specific group of items in a list, called a slice in Python. To make a slice, you specify the index of the first and last elements you want to work with.(slice的区间是从第一个数开始算，不将第一个数记在内，但是会把第二数记在内) (p. 61)</p>
+<p>To copy a list, you can make a slice that includes the entire original list by omitting the first index and the second index ([:]). This tells Python to make a slice that starts at the first item and ends with the last item, producing a copy of the entire list. (p. 63)</p>
+<p>If you’re trying to work with a copy of a list and you see unexpected behavior, make sure you are copying the list using a slice.</p>
+<p>Tuples are technically defined by the presence of a comma; the parentheses make them
+look neater and more readable. If you want to define a tuple with one element, you
+need to include a trailing comma:
+<em>my_t = (3,)</em>
+It doesn’t often make sense to build a tuple with one element, but this can happen
+when tuples are generated automatically.</p>
+<p>Indentation: PEP 8 recommends that you use four spaces per indentation level. Using
+four spaces improves readability while leaving room for multiple levels of
+indentation on each line.</p>
+<p>Line Length: Many Python programmers recommend that each line should be less than
+80 characters. PEP 8 also recommends that you limit all of your comments to 72 characters per line. But be aware that people who are working collaboratively almost always follow the PEP 8 guidelines.</p>
+<p>Blank Lines: To group parts of your program visually, use blank lines. You should use blank lines to organize your files, but don’t do so excessively.</p>
 
     </section>
 </article>
@@ -180,7 +202,8 @@ once without repetition. (p. 52)</p>
     <div class="read-more-item">
         <span class="read-more-item-dim">Earlier</span>
         <h2 class="post-list__post-title post-title"><a href="/2023/09/concepts/" title="link to Concepts">Concepts</a></h2>
-        <p class="excerpt">Loop: Looping allows you to take the same action, or set of actions, with every item in a list.&hellip;</p>
+        <p class="excerpt">Loop: Looping allows you to take the same action, or set of actions, with every item in a list.
+range() function: Python’s &lsquo;range()&rsquo; function makes it easy to generate a series of numbers. This is another result of the off-by-one behavior …&hellip;</p>
         <div class="post-list__meta">
             <time datetime=" 2023-09-11 15:28:01 &#43;0800" class="post-list__meta--date date">2023-09-11</time>
              
@@ -205,7 +228,7 @@ once without repetition. (p. 52)</p>
         <section class="footer">
     <footer>
         <span class="footer__copyright">This site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.</span>
-        <span class="footer__copyright">Generated by <a href="https://gohugo.io/">Hugo</a> at 2023-09-11, themed with <a href="https://github.com/xslingcn/vno-hugo"> Vno - Hugo</a>.</span>
+        <span class="footer__copyright">Generated by <a href="https://gohugo.io/">Hugo</a> at 2023-09-13, themed with <a href="https://github.com/xslingcn/vno-hugo"> Vno - Hugo</a>.</span>
     </footer>
 </section>
 

@@ -12,7 +12,8 @@
       <pubDate>Mon, 11 Sep 2023 15:18:06 +0800</pubDate>
       
       <guid>https://neruaLLz.github.io/2023/09/concepts/</guid>
-      <description>Loop: Looping allows you to take the same action, or set of actions, with every item in a list.</description>
+      <description>Loop: Looping allows you to take the same action, or set of actions, with every item in a list.
+range() function: Python’s &amp;lsquo;range()&amp;rsquo; function makes it easy to generate a series of numbers. This is another result of the off-by-one behavior you’ll see often in programming languages.The &amp;lsquo;range()&amp;rsquo; function causes Python to start counting at the first value you give it, and it stops when it reaches the second value you provide.</description>
     </item>
     
   </channel>
