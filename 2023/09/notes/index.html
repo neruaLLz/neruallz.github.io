@@ -180,6 +180,89 @@ indentation on each line.</p>
 <p>Line Length: Many Python programmers recommend that each line should be less than
 80 characters. PEP 8 also recommends that you limit all of your comments to 72 characters per line. But be aware that people who are working collaboratively almost always follow the PEP 8 guidelines.</p>
 <p>Blank Lines: To group parts of your program visually, use blank lines. You should use blank lines to organize your files, but don’t do so excessively.</p>
+<p>A single equal sign is really a statement; you might read the first line of code here as “Set the value of car equal to &lsquo;audi&rsquo;.” On the other hand, a double equal sign asks a question: “Is the value of car equal to &lsquo;bmw&rsquo;?” Most programming languages use equal signs in this way. (p. 73)</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>car = &lsquo;audi&rsquo;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>car == &lsquo;bmw&rsquo;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>False</p>
+<p>Testing for equality is case sensitive in Python. For example, two values with different capitalization are not considered equal:</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>car = &lsquo;Audi&rsquo;
+car == &lsquo;audi&rsquo;
+False</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>But if case doesn’t matter and instead you just want to test the value of a variable, you can convert the variable’s value to lowercase before doing the comparison:</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>car = &lsquo;Audi&rsquo;
+car.lower() == &lsquo;audi&rsquo;
+True</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>When you want to determine whether two values are not equal, you can use the <em>inequality operator</em> (!=).</p>
+<p>Most of the conditional expressions you write will test for equality, but sometimes you’ll find it more efficient to test for inequality.</p>
+<p>Using <em>and</em> to Check Multiple Conditions: To check whether two conditions are both True simultaneously, use the keyword <em>and</em> to combine the two conditional tests; if each test passes, the overall expression evaluates to True. If either test fails or if both tests fail, the expression evaluates to False. (p. 75)</p>
+<p>Using <em>or</em> to Check Multiple Conditions: The keyword or allows you to check multiple conditions as well, but it passes when either or both of the individual tests pass. An or expression fails only when both individual tests fail. (p. 76)</p>
+<p>Checking Whether a Value Is in a List: To find out whether a particular value is already in a list, use the keyword <em>in</em>. (p. 76)</p>
+<p>Checking Whether a Value Is Not in a List: Other times, it’s important to know if a value does not appear in a list. You can use the keyword <em>not</em> in this situation. (p. 76)</p>
+<p>Often, you’ll want to take one action when a conditional test passes and a different action in all other cases. Python’s if-else syntax makes this possible. An if-else block is similar to a simple if statement, but the else statement allows you to define an action or set of actions that are executed when the conditional test fails. (p. 79)</p>
+<p>The else block is a catchall statement. It matches any condition that wasn’t matched by a specific if or elif test, and that can sometimes include invalid or even malicious data. If you have a specific final condition you’re testing for, consider using a final elif block and omit the else block. As a result, you’ll be more confident that your code will run only under the correct conditions. (p. 82)</p>
+<p><strong>In summary, if you want only one block of code to run, use an if-elif-else chain. If more than one block of code needs to run, use a series of independent if statements.</strong> (p. 83)</p>
+<p>The only recommendation PEP 8 provides for styling conditional tests is to <strong>use a single space around comparison operators</strong>, such as ==, &gt;=, and &lt;=. For example:</p>
+<p>if age &lt; 4:</p>
+<p>is better than:</p>
+<p>if age&lt;4:</p>
+<p>Such spacing does not affect the way Python interprets your code; it just makes your code easier for you and others to read.</p>
+<p>Accessing Values in a Dictionary: To get the value associated with a key, give the name of the dictionary and then place the key inside a set of square brackets.</p>
+<p>Adding New Key-Value Pairs: To add a new key-value pair, you would give the name of the dictionary followed by the new key in square brackets, along with the new value. (p. 93)</p>
+<p>Modifying Values in a Dictionary: To modify a value in a dictionary, give the name of the dictionary with the key in square brackets and then the new value you want associated with that key. (p. 94)</p>
+<p>Removing Key-Value Pairs: When you no longer need a piece of information that’s stored in a dictionary, you can use the del statement to completely remove a key-value pair. All del needs is the name of the dictionary and the key that you want to remove. (p. 96)</p>
+<p>Using get() to Access Values: For dictionaries specifically, you can use the get() method to set a default value that will be returned if the requested key doesn’t exist. The get() method requires a key as a first argument. As a second optional argument, you can pass the value to be returned if the key doesn’t exist. If you leave out the second argument in the call to get() and the key doesn’t exist, Python will return the value None. The special value None means “no value exists.” This is not an error: it’s a special value meant to indicate the absence of a value. (p. 98)</p>
+<p>Looping Through All Key-Value Pairs: To write a for loop for a dictionary, you create names for the two variables that will hold the key and value in each key-value pair. You can choose any names you want for these two variables. <strong>The second half of the for statement includes the name of the dictionary followed by the method items(), which returns a sequence of key-value pairs.</strong> The for loop then assigns each of these pairs to the two variables provided. In the preceding example, we use the variables to print each key, followed by the associated value. The &ldquo;\n&rdquo; in the first print() call ensures that a blank line is inserted before each key-value pair in the output. (p. 100)</p>
+<p>for key, value in user_0.items():</p>
+<p>print(f&quot;\nKey: {key}&quot;)</p>
+<p>print(f&quot;Value: {value}&quot;)</p>
+<p>Looping Through All the Keys in a Dictionary： The keys() method is useful when you don’t need to work with all of the values in a dictionary. Looping through the keys is actually the default behavior when looping through a dictionary. You can choose to use the keys() method explicitly if it makes your code easier to read, or you can omit it if you wish. (p. 101)</p>
+<p>Looping Through a Dictionary’s Keys in a Particular Order: One way to do this is to sort the keys as they’re returned in the for loop. You can use the sorted() function to get a copy of the keys in order. (p. 103)</p>
+<p>Looping Through All Values in a Dictionary: If you are primarily interested in the values that a dictionary contains, you can use the values() method to return a sequence of values without any keys. But This approach pulls all the values from the dictionary without checking for repeats. list. To see each language chosen without repetition, we can use a set. A set is a collection in which each item must be unique. (p. 103-104)</p>
+<p>You can build a set directly using braces and separating the elements with commas:</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>languages = {&lsquo;python&rsquo;, &lsquo;rust&rsquo;, &lsquo;python&rsquo;, &lsquo;c&rsquo;}
+languages
+{&lsquo;rust&rsquo;, &lsquo;python&rsquo;, &lsquo;c&rsquo;}</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>It’s easy to mistake sets for dictionaries because they’re both wrapped in braces. hen you see braces but no key-value pairs, you’re probably looking at a set. Unlike lists and dictionaries, sets do not retain items in any specific order.</p>
+<p>A List of Dictionaries: use range() function. (p. 106) It’s common to store a number of dictionaries in a list when each dictionary contains many kinds of information about one object. (p. 107)</p>
+<p>A List in a Dictionary: Rather than putting a dictionary inside a list, it’s sometimes useful to put a list inside a dictionary. For example, consider how you might describe a pizza that someone is ordering. If you were to use only a list, all you could really store is a list of the pizza’s toppings. With a dictionary, a list of toppings can be just one aspect of the pizza you’re describing. (p. 108) You can nest a list inside a dictionary anytime you want more than one value to be associated with a single key in a dictionary. (p. 108)</p>
+<p>When you need to break up a long line in a print() call, choose an appropriate point at which to break the line being printed, and end the line with a quotation mark. Indent the next line, add an opening quotation mark, and continue the string. Python will automatically combine all of the strings it finds inside the parentheses. (p. 108)</p>
+<p>You should not nest lists and dictionaries too deeply. If you’re nesting items much deeper than what you see in the preceding examples, or if you’re working with someone else’s code with significant levels of nesting, there’s most likely a simpler way to solve the problem. (p. 109)</p>
+<p>A Dictionary in a Dictionary: You can nest a dictionary inside another dictionary, but your code can get complicated quickly when you do. (p. 110)</p>
+<p>USER INPUT AND WHILE LOOPS: it. When your program needs a name, you’ll be able to prompt the user for a name. When your program needs a list of names, you’ll be able to prompt the user for a series of names. To do this, you’ll use the input() function. You’ll also learn how to keep programs running as long as users want them to, so they can enter as much information as they need to; then, your program can work with that information. You’ll use Python’s while loop to keep programs running as long as certain conditions remain true. (p. 113-114</p>
+<p>How the input() Function Works: The input() function pauses your program and waits for the user to enter some text. Once Python receives the user’s input, it assigns that input to a variable to make it convenient for you to work with. (p. 114)</p>
+<p>Writing Clear Prompts: Each time you use the input() function, you should include a clear, easy-tofollow prompt that tells the user exactly what kind of information you’re looking for. Any statement that tells the user what to enter should work. Add a space at the end of your prompts to separate the prompt from the user’s response and to make it clear to your user where to enter their text. (p. 114)</p>
+<p>Use the operator += to write a prompt that’s longer than one line. (p. 115)</p>
+<p>When you use numerical input to do calculations and comparisons, be sure to convert the input value to a numerical representation first. The int() function can convert the input string to a numerical value. (p. 116)</p>
 
     </section>
 </article>
@@ -228,7 +311,7 @@ range() function: Python’s &lsquo;range()&rsquo; function makes it easy to gen
         <section class="footer">
     <footer>
         <span class="footer__copyright">This site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.</span>
-        <span class="footer__copyright">Generated by <a href="https://gohugo.io/">Hugo</a> at 2023-09-13, themed with <a href="https://github.com/xslingcn/vno-hugo"> Vno - Hugo</a>.</span>
+        <span class="footer__copyright">Generated by <a href="https://gohugo.io/">Hugo</a> at 2023-10-25, themed with <a href="https://github.com/xslingcn/vno-hugo"> Vno - Hugo</a>.</span>
     </footer>
 </section>
 
