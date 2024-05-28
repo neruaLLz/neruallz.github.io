@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://neruaLLz.github.io/2024/05/20240513/</loc>
-    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
+    <loc>https://neruaLLz.github.io/2024/05/dita_note_2/</loc>
+    <lastmod>2024-05-28T19:58:53+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/google_technical_writing/</loc>
+    <lastmod>2024-05-28T19:58:53+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/</loc>
-    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
+    <lastmod>2024-05-28T19:58:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,13 +22,10 @@
                 />
   </url><url>
     <loc>https://neruaLLz.github.io/posts/</loc>
-    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
-  </url><url>
-    <loc>https://neruaLLz.github.io/tags/squeak/</loc>
-    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
+    <lastmod>2024-05-28T19:58:53+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/tags/</loc>
-    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
+    <lastmod>2024-05-28T19:58:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -36,6 +36,18 @@
                 hreflang="en-us"
                 href="https://neruaLLz.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/dita_best_practices/</loc>
+    <lastmod>2024-05-26T17:27:59+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/2024/05/dita_note_1/</loc>
+    <lastmod>2024-05-26T17:27:59+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/2024/05/20240513/</loc>
+    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
+  </url><url>
+    <loc>https://neruaLLz.github.io/tags/squeak/</loc>
+    <lastmod>2024-05-13T15:24:53+08:00</lastmod>
   </url><url>
     <loc>https://neruaLLz.github.io/2024/04/20240402/</loc>
     <lastmod>2024-04-02T15:09:06+08:00</lastmod>

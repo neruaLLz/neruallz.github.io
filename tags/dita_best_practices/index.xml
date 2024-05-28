@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dita_best_practices on Lauren Pickings</title>
+    <link>https://neruaLLz.github.io/tags/dita_best_practices/</link>
+    <description>Recent content in dita_best_practices on Lauren Pickings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 May 2024 17:27:59 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/tags/dita_best_practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dita_Note_1</title>
+      <link>https://neruaLLz.github.io/2024/05/dita_note_1/</link>
+      <pubDate>Sun, 26 May 2024 17:27:59 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2024/05/dita_note_1/</guid>
+      <description>short descriptions 的内容应该是具体的，而不是笼统的，不是 self-referential。
+Incorrect:
+Coffee harvesting and processing The following information describes how coffee cherries are harvested and processed to become coffee beans that you can use to make espresso drinks. Correct:
+Coffee harvesting and processing To create the coffee used in espresso drinks or brewed coffee, the fruit of the coffee plant is harvested, hulled, cleaned, aged, and finally ground.</description>
+    </item>
+    
+  </channel>
+</rss>
