@@ -5,13 +5,41 @@
     <link>https://neruaLLz.github.io/</link>
     <description>Recent content on Lauren Pickings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 May 2024 19:58:53 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 16:26:49 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dita_note_2</title>
-      <link>https://neruaLLz.github.io/2024/05/dita_note_2/</link>
+      <title>Note_of_markdown</title>
+      <link>https://neruaLLz.github.io/2024/06/note_of_markdown/</link>
+      <pubDate>Thu, 06 Jun 2024 16:26:49 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2024/06/note_of_markdown/</guid>
+      <description>If you want to add an image in your markdown file, put the .md file and the image in the same directory, and then swrite the following syntax in .md file: To add a table in Markdown, use the vertical line | to separate each column, and use three or more dashes &amp;mdash; to create each column’s header. A vertical line should also be added at either end of the row.</description>
+    </item>
+    
+    <item>
+      <title>Dita_note_3_1</title>
+      <link>https://neruaLLz.github.io/2024/06/dita_note_3_1/</link>
+      <pubDate>Thu, 06 Jun 2024 15:39:50 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2024/06/dita_note_3_1/</guid>
+      <description>Technical Writing: Definition: a form of written document providing technical information that helps readers to solve complex problems Main features: Reader-centeredness Clear organization and page design Readable style and effective visuals Purposes: to inform (provide information that answers questions) to instruct (help people do something) to persuade (encourage to take a desired action or make a decision) Audiences: people who are reading the material in order to do something or learn something Audiences: Who: Primary audience: immediate readers - make decisions Secondary audience: those outside the immediate circles - advise the decision makers Why: Primary purpose: to inform, instruct and persuade Secondary purpose: (when planning your document, start with a clear statement that identifies the target audience as well as the document&amp;rsquo;s primaru and secondary purposes.</description>
+    </item>
+    
+    <item>
+      <title>Dita_note_2_2</title>
+      <link>https://neruaLLz.github.io/2024/06/dita_note_2_2/</link>
+      <pubDate>Wed, 05 Jun 2024 16:44:39 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2024/06/dita_note_2_2/</guid>
+      <description>Should you organize your material into a single document or into a set of documents in a website? Consider the following guidelines:
+How-to guides, introductory overviews, and conceptual guides often work better as shorter documents when aimed at readers who are new to the subject matter. For example, a reader who is completely new to your subject matter might struggle to remember lots of new terms, concepts, and facts. Remember that your audience might be reading your documentation to gain a quick and general overview of the topic.</description>
+    </item>
+    
+    <item>
+      <title>Dita_note_2_1</title>
+      <link>https://neruaLLz.github.io/2024/05/dita_note_2_1/</link>
       <pubDate>Tue, 28 May 2024 19:58:53 +0800</pubDate>
       
-      <guid>https://neruaLLz.github.io/2024/05/dita_note_2/</guid>
+      <guid>https://neruaLLz.github.io/2024/05/dita_note_2_1/</guid>
       <description>Good sentences in technical documentation identify who is doing what to whom.
 An imperative verb is a command. Many items in numbered lists start with imperative verbs. Sentences that start with an imperative verb imply an actor. The implied actor is you.
 Use the active voice most of the time. Use the passive voice sparingly. Be bold—be active.

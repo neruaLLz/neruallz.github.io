@@ -5,7 +5,16 @@
     <link>https://neruaLLz.github.io/tags/reading/</link>
     <description>Recent content in reading on Lauren Pickings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Oct 2023 23:21:29 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 16:26:49 +0800</lastBuildDate><atom:link href="https://neruaLLz.github.io/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note_of_markdown</title>
+      <link>https://neruaLLz.github.io/2024/06/note_of_markdown/</link>
+      <pubDate>Thu, 06 Jun 2024 16:26:49 +0800</pubDate>
+      
+      <guid>https://neruaLLz.github.io/2024/06/note_of_markdown/</guid>
+      <description>If you want to add an image in your markdown file, put the .md file and the image in the same directory, and then swrite the following syntax in .md file: To add a table in Markdown, use the vertical line | to separate each column, and use three or more dashes &amp;mdash; to create each column’s header. A vertical line should also be added at either end of the row.</description>
+    </item>
+    
     <item>
       <title>20231030</title>
       <link>https://neruaLLz.github.io/2023/10/20231030/</link>
